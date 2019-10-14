@@ -24,9 +24,9 @@ docker run  -it -d -p1527:1527 splicemachine/standalone
 
   ![Treiber Manager](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/neu.PNG)
 
-* Datei hinzufügen
+* Datei hinzufügen (splicemachine/jdbc-driver)
 
-  ![Treiber Manager](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/datei.PNG)
+![Treiber Manager](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/datei.PNG)
 
 - Klasse suchen
 
