@@ -18,23 +18,25 @@ docker run  -it -d -p1527:1527 splicemachine/standalone
 
 - Treibermanager öffnen
 
-  ![Drag Racing](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/treiber.PNG)
+  ![Treiber Manager](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/treiber.PNG)
 
 - "Neu"
 
-  bild
+  ![Treiber Manager](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/neu.PNG)
 
-- Datei hinzufügen
+* Datei hinzufügen
 
-  bild
+  ![Treiber Manager](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/datei.PNG)
 
 - Klasse suchen
 
-  bild
+  ![Treiber Manager](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/klasse.PNG)
 
-- url: jdbc:splice://localhost:1527/splicedb
+* url: jdbc:splice://localhost:1527/splicedb
 
-- name: splice machine
+* name: splice machine
+
+  ![Treiber Manager](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/result.PNG)
 
 ## Username & Passowrd
 
