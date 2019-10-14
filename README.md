@@ -18,7 +18,7 @@ docker run  -it -d -p1527:1527 splicemachine/standalone
 
 - Treibermanager öffnen
 
-  ![Drag Racing](/images/Treiber.jpg)
+  ![Drag Racing](https://github.com/PhilschmidProdato/splice-machine/blob/master/images/treiber.PNG)
 
 - "Neu"
 
@@ -38,6 +38,6 @@ docker run  -it -d -p1527:1527 splicemachine/standalone
 
 ## Username & Passowrd
 
-Username: splice
+    Username: splice
 
-Password: admin
+    Password: admin
