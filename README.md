@@ -16,25 +16,25 @@ docker run  -it -d -p1527:1527 splicemachine/standalone
 
 ### Treiben hinzufügen über Treibermanger
 
-    * Treibermanager öffnen
+- Treibermanager öffnen
 
-      ![Drag Racing](/images/Treiber.jpg)
+  ![Drag Racing](/images/Treiber.jpg)
 
-    * "Neu"
+- "Neu"
 
-        bild
+  bild
 
-    * Datei hinzufügen
+- Datei hinzufügen
 
-        bild
+  bild
 
-    * Klasse suchen
+- Klasse suchen
 
-        bild
+  bild
 
-    * url: jdbc:splice://localhost:1527/splicedb
+- url: jdbc:splice://localhost:1527/splicedb
 
-    * name: splice machine
+- name: splice machine
 
 ## Username & Passowrd
 
