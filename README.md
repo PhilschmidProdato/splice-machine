@@ -1,12 +1,6 @@
 # Setup Splice machine as Docker
 
-## Download Image
-
-```
-docker pull splicemachine/standalone
-```
-
-## Run the Image
+## Run Splice-machine with docker-compose
 
 ```
 docker-compose up -d
