@@ -9,7 +9,7 @@ docker pull splicemachine/standalone
 ## Run the Image
 
 ```
-docker run  -it -d -p1527:1527 -p 8091:8091 splicemachine/standalone
+docker-compose up -d
 ```
 
 ## Connect DBeaver
