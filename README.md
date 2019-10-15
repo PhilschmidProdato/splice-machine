@@ -1,5 +1,15 @@
 # Setup Splice machine as Docker
 
+## Links
+
+- Notebooks: http://localhost:8090
+
+- DB: http://localhost:1527
+
+- Hadoop: http://localhost:8080/node
+
+- Spark: http://localhost:8091/
+
 ## Run Splice-machine with docker-compose
 
 ```
