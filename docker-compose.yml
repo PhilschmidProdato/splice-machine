@@ -1,0 +1,27 @@
+version: "3"
+services:
+  sm-complete:
+    container_name: splice-machine-standalone
+    image: splice-machine-standalone
+    build:
+      context: .
+      dockerfile: Dockerfile
+      sysctls:
+        - net.ipv6.conf.all.disable_ipv6=1
+    # deploy:
+    #   replicas: 1
+    ports:
+      - 1527:1527
+      - 4040:4040
+      - 7078:7078
+      - 8080:8080
+      - 8081:8081
+      - 8082:8082
+      - 8090:8090
+      - 8091:8091
+      - 4041:4041
+    # volumes:
+    #   - ./couchbase/data:/opt/couchbase/var/lib/couchbase/data
+    #   - ./demo/:/mnt/data
+    #   - ./curl_whitelist.json:/opt/couchbase/var/lib/couchbase/n1qlcerts/curl_whitelist.json
+    #   - ./couchbase/node1:/opt/couchbase/var
