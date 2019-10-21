@@ -6,8 +6,8 @@ services:
     build:
       context: .
       dockerfile: Dockerfile
-      sysctls:
-        - net.ipv6.conf.all.disable_ipv6=1
+      # sysctls:
+      #   - net.ipv6.conf.all.disable_ipv6=1
     # deploy:
     #   replicas: 1
     ports:
