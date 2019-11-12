@@ -10,7 +10,7 @@
 
 - Spark: http://localhost:8091/
 
-## Run Splice-machine with docker-compose (Spark not working)
+## Run Splice-machine with docker
 
 ```
 docker run -ti  --sysctl net.ipv6.conf.all.disable_ipv6=1  --name spliceserver  --hostname localhost -p 1527:1527 -p 4040:4040 -p 7078:7078  -p 8080:8080 -p 8090:8090 -p 8091:8091 -p 4041:4041 -p 8081:8081 -p 8082:8082  splicemachine/standalone:1.1.27
