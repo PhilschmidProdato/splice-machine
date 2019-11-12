@@ -20,11 +20,6 @@ docker run -ti  --sysctl net.ipv6.conf.all.disable_ipv6=1  --name spliceserver  
 ./start-all.sh
 ```
 
-## Run Splice-machine with docker in foreground
-
-```
-docker-compose up -d
-```
 
 ## Connect DBeaver
 
